@@ -1,0 +1,38 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	background: url("wallpaper.jpg");
+}
+h1{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	margin-top: 20px;
+}
+.content{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.content button{
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background: blue;
+}
+.content button a{
+	text-decoration: none;
+	color: white;	
+	font-family: sans-serif;
+}
+p{
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 100px;
+	color: white;
+	font-style: italic;
+	font-size: 1.2em;
+}

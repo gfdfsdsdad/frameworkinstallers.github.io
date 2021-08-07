@@ -1,0 +1,41 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	background: url("wallpaper.jpg");
+	width: 100%;
+	height: 100vh;
+}
+.start{
+	margin: 20px;
+	color: white;
+	font: 1em sans-serif;
+	display: flex;
+	justify-content: space-between;
+}
+.start p a{
+	text-decoration: none;
+	color: white;
+	font: 1em sans-serif;
+}
+.mid{
+	margin: 20px;
+}
+.mid nav{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.mid nav a{
+	text-decoration: none;
+	font: 1em sans-serif;
+	color: white;
+}
+.end{
+	text-align: center;
+	color: white;
+	font-family: sans-serif;
+	line-height: 450px;
+}
